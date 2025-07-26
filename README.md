@@ -57,3 +57,4 @@ Convert into a Web & Android App for real-time scanning
 Integrate more APIs like Google Safe Browsing, AbuseIPDB, WHOIS
 
 Online learning & retraining to adapt to evolving phishing techniques
+
