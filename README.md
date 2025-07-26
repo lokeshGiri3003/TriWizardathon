@@ -54,6 +54,10 @@ ML model predicts phishing vs legitimate
 
 Updates whitelist/blacklist dynamically
 
+## Architecture 
+
+![Architecture](./Architecture/Architecture.jpg )
+
 ## Future Scope
 
 Convert into a Web & Android App for real-time scanning
