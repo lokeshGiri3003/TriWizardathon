@@ -1,4 +1,5 @@
-# TriWizardathon
+
+**TriWizardathon**
 
 **Overview**
 
@@ -16,7 +17,6 @@ Phishing affects individuals, organizations, and governments, leading to financi
 Existing tools fail against new/zero-day phishing attacks since they rely only on static blacklists.
 Non-technical users need an easy-to-use, lightweight solution that works on the web and mobile.
 
- 
 **Why Our Solution is Unique**
 
 ✔ Multi-layer Detection: Combines whitelist, blacklist, VirusTotal API, and ML-based verification
@@ -26,38 +26,32 @@ Non-technical users need an easy-to-use, lightweight solution that works on the 
 
 **How It Works**
 
-1️⃣ Pre-processing: Masked URL Detection & Unmasking
-Detects shortened/obfuscated URLs
+1️⃣ Layer 1: Whitelist & Blacklist Check
 
-Unmasks them to reveal the real destination before analysis
-
-2️⃣ Layer 1: Whitelist & Blacklist Check
 If in whitelist → Allowed
 
 If in blacklist → Blocked
 
 Otherwise → Forwarded to next layer
 
-3️⃣ Layer 2: Threat Intelligence API (VirusTotal)
+2️⃣ Layer 2: Threat Intelligence API (VirusTotal)
+
 Checks URL against global threat intelligence
 
 If phishing → Block & update blacklist
 
 If safe → Forward to ML layer
 
-4️⃣ Layer 3: ML-Based Detection (Random Forest)
+**3️⃣ Layer 3: ML-Based Detection (Random Forest)**
+
 Extracts features like domain length, HTTPS usage, symbol count, etc.
 
 ML model predicts phishing vs legitimate
 
 Updates whitelist/blacklist dynamically
 
- **Future Scope**
+**Future Scope**
+
 ✅ Convert into a Web & Android App for real-time scanning
-
 ✅ Integrate more APIs like Google Safe Browsing, AbuseIPDB, WHOIS
-
 ✅ Online learning & retraining to adapt to evolving phishing techniques
-
-
-
