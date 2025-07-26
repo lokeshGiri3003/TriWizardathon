@@ -1,5 +1,7 @@
 
-## TriWizardathon
+## TriWizardathon - MULTI-LAYERED PHISHING URL DETECTION BY USING MACHINE LEARNING
+
+### Theam - Cybersecurity
 
 ## Overview
 
@@ -8,8 +10,7 @@ Phishing is one of the most common cyber threats, tricking users into revealing 
 ## Our solution?
 
 A multi-layered phishing detection system that goes beyond traditional blacklist checks. It integrates whitelisting, blacklisting, threat intelligence APIs (VirusTotal), and an ML model (Random Forest) to accurately detect phishing URLs in real-time.
-
-Unlike static tools like Google Safe Browsing or antivirus software, our approach adapts to zero-day phishing URLs and provides real-time protection with minimal resources—perfect for mobile and rural users.
+Unlike static tools like Google Safe Browsing or antivirus software, our approach adapts to zero-day phishing URLs and provides real-time protection with minimal resources and perfect for mobile and rural users.
 
 ## Problem Statement
 
@@ -20,8 +21,11 @@ Non-technical users need an easy-to-use, lightweight solution that works on the 
 ## Why Our Solution is Unique
 
 ✔ Multi-layer Detection: Combines whitelist, blacklist, VirusTotal API, and ML-based verification
+
 ✔ Real-time Protection: Works instantly when a suspicious link is clicked
+
 ✔ User-Friendly: Minimal UI for non-technical users
+
 ✔ Lightweight: Designed for low-resource environments
 
 ## How It Works
